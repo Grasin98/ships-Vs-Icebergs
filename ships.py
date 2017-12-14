@@ -29,9 +29,9 @@ model.add(Convolution2D(32,3, activation="relu",input_shape=(75,75,2)))
 
 model.add(Convolution2D(64,3,activation="relu",input_shape=(75,75,2)))
 
-model.add(GlobalAveragePooling2D())
+model.add(MaxPooling2D())
 
-#model.add(Flatten())
+model.add(Flatten())
 
 model.add(Dropout(0.3))
 

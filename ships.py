@@ -20,7 +20,8 @@ X_test=np.concatenate([x_band1[:,:,:,np.newaxis],x_band2[:,:,:,np.newaxis]],axis
 print("X_test: ",X_test.shape)
 
 from keras.models import Sequential
-from keras.layers import Dense,Convolution2D,GlobalAveragePooling2D,Flatten,Dropout
+from keras.layers import Dense,Convolution2D,Flatten,Dropout
+from keras.models import MaxPooling2D
 
 model=Sequential()
 

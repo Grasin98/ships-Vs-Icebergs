@@ -1,2 +1,4 @@
 # ships-Vs-Icebergs
-Differentiates between a ship and an iceberg using satellite images
+ 
+The dataset contains sattelite images which contains White dots. Now we need to find suitable features and differentiate between Ship and iceberg.
+The dataset was taken from Kaggle.
